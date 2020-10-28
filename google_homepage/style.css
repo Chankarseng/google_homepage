@@ -1,0 +1,74 @@
+body
+{
+    font-family: arial,sans-serif;
+}
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li
+{
+    /* display: inline; */
+    float: left;
+}
+li a
+{
+    display: block;
+    padding : 15px;
+    text-decoration: none;
+}
+li a:hover
+{
+    text-decoration: underline;
+    color: red;
+}
+.right
+{
+    float: right;
+}
+/* .inputBox
+{
+    position: relative;
+} */
+.inputBox input
+{
+    font-size: 20px;
+    padding-left: 30px;
+    border-radius: 10px;
+    border: 1px solid #aaa;
+}
+/* .inputBox i
+{
+    position: absolute;
+    top: 5px;
+    padding-left: 10px;
+    color: #aaa;
+} */
+.bottom-nav
+{
+    background-color: #f2f2f2;;
+    overflow:hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.search img
+{
+    padding-left: 40%;
+    padding-top: 10%;
+}
+.search input
+{
+    margin-left: 30%;
+    margin-top: 25px;
+    width: 42%;
+}
+.search .buttons
+{
+    margin-left: 42%;
+    margin-top: 25px;
+}
